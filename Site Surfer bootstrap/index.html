@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <style>
+  .hero
+{
+  /* Choisis la hauteur ici */
+  height: 80vh;
+
+  /* Tu lui donnes une image de background */
+  background-image: url("https://images.pexels.com/photos/1606204/pexels-photo-1606204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");  
+  background-repeat: no-repeat;
+
+  /* Centre l'image et la met bien sur tous les écrans */
+   background-size: 110%;
+
+}
+
+  </style>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">The Surfing Project</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Le programme</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nos prochaines sessions
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero px-4 py-5 my-10 text-center">
+      <h1 class="display-5 fw-bold">Partez à l'aventure</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Découvrez notre école de surf en peer learning.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Je m'inscrit à la prochaine session</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Je découvre le programme</button>
+        </div>
+      </div>
+    </div>
+    <div class="text-center container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">The Surfing Project en 3 points</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon bg-gradient">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-currency-bitcoin" viewBox="0 0 16 16">
+              <path d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25L5.5 13zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28V4.487zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927V8.539z"/>
+            </svg>
+          </div>
+          <h2>Pas Chère mon fils</h2>
+          <p>Exorcizamus te omnis immundus spiritus omnis satanica potestas omnis incursio infernalis adversii omnis congregatio secta diabolica ergo draco maledicte ecclesiam tuam securi tibi facias libertate servire te rogamus audi nos.</p>
+          
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-gradient">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-tsunami" viewBox="0 0 16 16">
+              <path d="M.036 12.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65zm0 2a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65zM2.662 8.08c-.456 1.063-.994 2.098-1.842 2.804a.5.5 0 0 1-.64-.768c.652-.544 1.114-1.384 1.564-2.43.14-.328.281-.68.427-1.044.302-.754.624-1.559 1.01-2.308C3.763 3.2 4.528 2.105 5.7 1.299 6.877.49 8.418 0 10.5 0c1.463 0 2.511.4 3.179 1.058.67.66.893 1.518.819 2.302-.074.771-.441 1.516-1.02 1.965a1.878 1.878 0 0 1-1.904.27c-.65.642-.907 1.679-.71 2.614C11.076 9.215 11.784 10 13 10h2.5a.5.5 0 0 1 0 1H13c-1.784 0-2.826-1.215-3.114-2.585-.232-1.1.005-2.373.758-3.284L10.5 5.06l-.777.388a.5.5 0 0 1-.447 0l-1-.5a.5.5 0 0 1 .447-.894l.777.388.776-.388a.5.5 0 0 1 .447 0l1 .5a.493.493 0 0 1 .034.018c.44.264.81.195 1.108-.036.328-.255.586-.729.637-1.27.05-.529-.1-1.076-.525-1.495-.426-.42-1.19-.77-2.477-.77-1.918 0-3.252.448-4.232 1.123C5.283 2.8 4.61 3.738 4.07 4.79c-.365.71-.655 1.433-.945 2.16-.15.376-.301.753-.463 1.13z"/>
+            </svg>
+          </div>
+          <h2>Relax</h2>
+          <p>Exorcizamus te omnis immundus spiritus omnis satanica potestas omnis incursio infernalis adversii omnis congregatio secta diabolica ergo draco maledicte ecclesiam tuam securi tibi facias libertate servire te rogamus audi nos.</p>
+          
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-gradient">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+              <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+            </svg>
+          </div>
+          <h2>La Communauté</h2>
+          <p>Exorcizamus te omnis immundus spiritus omnis satanica potestas omnis incursio infernalis adversii omnis congregatio secta diabolica ergo draco maledicte ecclesiam tuam securi tibi facias libertate servire te rogamus audi nos.</p>
+          </div>
+      </div>
+    </div>     
+    <div class="container"> 
+      <div class="row"> 
+        <div class="card-group d-flex justify-content-around">   
+        <div class="col-5">
+          <div class="card">
+            <img src="surf.jpg" class="card-img-top" alt="Girl on the bech">
+            <div class="card-body">
+              <p class="card-text">Exorcizamus te omnis immundus spiritus omnis satanica potestas omnis incursio infernalis adversii omnis congregatio secta diabolica ergo draco maledicte ecclesiam tuam securi tibi facias libertate servire te rogamus audi nos.</p>
+        </div>  
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="card">
+            <img src="surf2.jpg" class="card-img-top" alt="Sur la plage">
+            <div class="card-body">
+              <p class="card-text">Exorcizamus te omnis immundus spiritus omnis satanica potestas omnis incursio infernalis adversii omnis congregatio secta diabolica ergo draco maledicte ecclesiam tuam securi tibi facias libertate servire te rogamus audi nos.</p>
+          </div>
+        </div>
+      </div>           
+    </div>
+    <div class="container py-3">
+       
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Prix</h1>
+          <p class="fs-5 text-muted"></p>
+        </div>
+          
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Semaine d'essai</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">0€<small class="text-muted fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Le kiff</li>
+                  <li>A Bali</li>
+                  <li>Pendant 1 semaine</li>
+                  
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">s'inscrire</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Early Bird</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">15€<small class="text-muted fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Le kit</li>
+                  <li>A Bali</li>
+                  <li>Pendant 12 semaine</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">s'inscrire</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-normal">En 3 fois</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">7€<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Le Kiff</li>
+                  <li>A Bali</li>
+                  <li>Pendant 12 semaines</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">s'inscrire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© Bootstrap, et The Surfing Project</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+        
+            
+            </ul>
+          </footer>
+        </div>
+        
+    
+      
+    </div>
+    
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+
+</html>

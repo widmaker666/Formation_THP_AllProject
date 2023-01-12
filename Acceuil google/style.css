@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+
+body
+{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+ }
+ header > p
+ {
+    padding-right: 30px;
+    
+ }
+
+.svg
+{
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.loupe
+{
+    width: 24px;
+    height: 24px;
+    padding-left: 8px;
+}
+
+.micro
+{
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;    
+}
+section > img
+{
+    width: 272px;
+    height: 92px;
+}
+.fakebar
+{
+    display: flex;
+    flex-direction: row;
+    height: 41px;
+    width: 584px;
+    background-color: #DFDFDE;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#searchbar
+{
+    width: 100%;
+
+}
+#searchbar > input
+{
+    width: 95%;
+    height: 37px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+#buttons
+{
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+        
+}
+#buttons > button
+{
+    width: 138px;
+    height: 36px;
+    border: 1px solid transparent;
+    margin: 10px;
+    background-color: transparent;
+    transition-duration: 500ms;
+
+
+}
+#buttons > button:hover
+{
+    background-color: #DFDFDE;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer
+{
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#navbar ul
+{
+    display: flex;
+    flex-direction: row;
+}
+#navbar li
+{
+    list-style-type: none;
+}
+
+#navleft li
+{
+    padding-left: 7px;
+    
+}
+#navcenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+#navcenter > img
+{
+    width: 12px;
+    height: 14px;
+    padding-right: 5px;
+}
+#navright li
+{
+    padding-right: 10px;
+    
+}
+#country
+{
+    padding: 1.5rem 0 20px 3.8rem;  
+    position: relative;
+    width: 0;
+    height: 0;
+}
