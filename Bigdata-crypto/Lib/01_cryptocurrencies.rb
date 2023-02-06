@@ -42,6 +42,3 @@ puts hash_6000sup
 
 puts "\n ============ \n"
 puts "Fin merci"
-
-
-
